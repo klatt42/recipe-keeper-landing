@@ -1,6 +1,7 @@
 import Hero from '@/components/Hero'
 import PainPoints from '@/components/PainPoints'
 import Features from '@/components/Features'
+import VisualDemo from '@/components/VisualDemo'
 import Testimonials from '@/components/Testimonials'
 import Pricing from '@/components/Pricing'
 import LeadMagnet from '@/components/LeadMagnet'
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <PainPoints />
       <Features />
+      <VisualDemo />
       <Testimonials />
       <Pricing />
       <LeadMagnet />

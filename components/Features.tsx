@@ -19,10 +19,10 @@ export default function Features() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
         </svg>
       ),
-      title: "Keep Recipes in the Family, Literally",
-      subtitle: "Invite Unlimited Family Members (Free)",
-      description: "Your sister in California, your brother in Texas, your cousin in Florida — everyone gets access. No more \"can you send me that recipe?\" texts.",
-      benefit: "Everyone can contribute. Everyone can cook. Everyone stays connected.",
+      title: "Share Cookbooks with Your Whole Family",
+      subtitle: "Premium Feature - Share with Unlimited Family Members",
+      description: "Your sister in California, your brother in Texas, your cousin in Florida — share your cookbooks with everyone. Free members can VIEW shared cookbooks (read-only). Premium members can SHARE their cookbooks and collaborate.",
+      benefit: "One person shares, everyone cooks. Upgrade to contribute your own recipes.",
       emotional: "Distance doesn't matter. Recipes connect us.",
     },
     {
@@ -73,25 +73,25 @@ export default function Features() {
           </h2>
           <p className="text-xl text-gray-700">
             We built My Family Recipe Keeper specifically for{' '}
-            <span className="font-semibold text-amber-600">handwritten family recipes</span>.
+            <span className="font-semibold text-emerald-600">handwritten family recipes</span>.
             Not meal planning. Not discovering new recipes. Just preserving yours.
           </p>
         </div>
 
         {/* Hero Feature - Multi-Image OCR */}
-        <div className="max-w-5xl mx-auto mb-16 bg-gradient-to-br from-amber-50 to-orange-50 rounded-2xl p-8 md:p-12 border-2 border-amber-200 shadow-xl">
+        <div className="max-w-5xl mx-auto mb-16 bg-gradient-to-br from-emerald-50 to-green-50 rounded-2xl p-8 md:p-12 border-2 border-emerald-200 shadow-xl">
           <div className="flex items-start gap-4 mb-6">
-            <div className="flex-shrink-0 w-16 h-16 bg-amber-600 rounded-xl flex items-center justify-center text-white">
+            <div className="flex-shrink-0 w-16 h-16 bg-emerald-600 rounded-xl flex items-center justify-center text-white">
               {features[0].icon}
             </div>
             <div className="flex-1">
-              <div className="inline-block bg-amber-600 text-white text-sm font-bold px-3 py-1 rounded-full mb-3">
+              <div className="inline-block bg-emerald-600 text-white text-sm font-bold px-3 py-1 rounded-full mb-3">
                 {features[0].badge}
               </div>
               <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
                 {features[0].title}
               </h3>
-              <p className="text-lg text-amber-700 font-semibold mb-4">
+              <p className="text-lg text-emerald-700 font-semibold mb-4">
                 {features[0].subtitle}
               </p>
             </div>
@@ -104,14 +104,14 @@ export default function Features() {
             <p className="font-semibold text-gray-900">
               ✓ {features[0].benefit}
             </p>
-            <p className="italic text-amber-700 text-xl font-semibold">
+            <p className="italic text-emerald-700 text-xl font-semibold">
               "{features[0].emotional}"
             </p>
           </div>
 
           <a
             href="https://app.myfamilyrecipekeeper.com/signup"
-            className="inline-flex items-center px-6 py-3 text-lg font-semibold text-white bg-amber-600 hover:bg-amber-700 rounded-lg shadow-lg hover:shadow-xl transition-all"
+            className="inline-flex items-center px-6 py-3 text-lg font-semibold text-white bg-emerald-600 hover:bg-emerald-700 rounded-lg shadow-lg hover:shadow-xl transition-all"
           >
             Try Multi-Image OCR Free
             <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -125,17 +125,17 @@ export default function Features() {
           {features.slice(1).map((feature, index) => (
             <div
               key={index}
-              className="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition-shadow border-l-4 border-amber-500"
+              className="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition-shadow border-l-4 border-emerald-500"
             >
               <div className="flex items-start gap-4 mb-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-amber-600 rounded-lg flex items-center justify-center text-white">
+                <div className="flex-shrink-0 w-12 h-12 bg-emerald-600 rounded-lg flex items-center justify-center text-white">
                   {feature.icon}
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-1">
                     {feature.title}
                   </h3>
-                  <p className="text-sm text-amber-700 font-semibold">
+                  <p className="text-sm text-emerald-700 font-semibold">
                     {feature.subtitle}
                   </p>
                 </div>
@@ -148,7 +148,7 @@ export default function Features() {
                 <p className="font-semibold text-gray-900">
                   ✓ {feature.benefit}
                 </p>
-                <p className="italic text-amber-700 font-semibold">
+                <p className="italic text-emerald-700 font-semibold">
                   "{feature.emotional}"
                 </p>
               </div>
@@ -159,14 +159,14 @@ export default function Features() {
         {/* Feature CTA */}
         <div className="max-w-3xl mx-auto mt-16 text-center">
           <h3 className="text-3xl font-bold text-gray-900 mb-4">
-            Start with 50 Recipes Free. Upgrade When You Need More.
+            Start with 25 Recipes Free. Upgrade When You Need More.
           </h3>
           <p className="text-lg text-gray-700 mb-6">
             No credit card required. No bait-and-switch. Just free, forever.
           </p>
           <a
             href="https://app.myfamilyrecipekeeper.com/signup"
-            className="inline-flex items-center px-8 py-4 text-lg font-semibold text-white bg-amber-600 hover:bg-amber-700 rounded-lg shadow-lg hover:shadow-xl transition-all transform hover:scale-105"
+            className="inline-flex items-center px-8 py-4 text-lg font-semibold text-white bg-emerald-600 hover:bg-emerald-700 rounded-lg shadow-lg hover:shadow-xl transition-all transform hover:scale-105"
           >
             Save Your First Recipe (Free)
             <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

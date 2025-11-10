@@ -26,12 +26,12 @@ export default function LeadMagnet() {
   }
 
   return (
-    <section id="lead-magnet" className="py-20 bg-gradient-to-br from-amber-100 via-orange-100 to-amber-50">
+    <section id="lead-magnet" className="py-20 bg-gradient-to-br from-emerald-100 via-green-100 to-emerald-50">
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto bg-white rounded-2xl shadow-2xl overflow-hidden">
           <div className="grid md:grid-cols-2 gap-8">
             {/* Left side - Value proposition */}
-            <div className="bg-gradient-to-br from-amber-600 to-orange-600 p-8 md:p-12 text-white">
+            <div className="bg-gradient-to-br from-emerald-600 to-green-600 p-8 md:p-12 text-white">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-16 h-16 bg-white bg-opacity-20 rounded-xl flex items-center justify-center text-3xl">
                   📦
@@ -46,7 +46,7 @@ export default function LeadMagnet() {
                 </div>
               </div>
 
-              <p className="text-xl mb-6 text-amber-50">
+              <p className="text-xl mb-6 text-emerald-50">
                 The complete guide to preserving family recipes before it's too late.
               </p>
 
@@ -57,7 +57,7 @@ export default function LeadMagnet() {
                   </svg>
                   <div>
                     <p className="font-semibold">Photography tips</p>
-                    <p className="text-sm text-amber-100">How to photograph recipe cards (lighting, angles, equipment)</p>
+                    <p className="text-sm text-emerald-100">How to photograph recipe cards (lighting, angles, equipment)</p>
                   </div>
                 </div>
 
@@ -67,7 +67,7 @@ export default function LeadMagnet() {
                   </svg>
                   <div>
                     <p className="font-semibold">Organization system</p>
-                    <p className="text-sm text-amber-100">How to sort recipes before digitizing</p>
+                    <p className="text-sm text-emerald-100">How to sort recipes before digitizing</p>
                   </div>
                 </div>
 
@@ -77,7 +77,7 @@ export default function LeadMagnet() {
                   </svg>
                   <div>
                     <p className="font-semibold">Story-capturing prompts</p>
-                    <p className="text-sm text-amber-100">"What did Grandma say about this recipe?"</p>
+                    <p className="text-sm text-emerald-100">"What did Grandma say about this recipe?"</p>
                   </div>
                 </div>
 
@@ -87,7 +87,7 @@ export default function LeadMagnet() {
                   </svg>
                   <div>
                     <p className="font-semibold">Interview questions</p>
-                    <p className="text-sm text-amber-100">50 questions to ask relatives before it's too late</p>
+                    <p className="text-sm text-emerald-100">50 questions to ask relatives before it's too late</p>
                   </div>
                 </div>
 
@@ -97,7 +97,7 @@ export default function LeadMagnet() {
                   </svg>
                   <div>
                     <p className="font-semibold">Condition assessment</p>
-                    <p className="text-sm text-amber-100">Is your recipe card in danger? Find out.</p>
+                    <p className="text-sm text-emerald-100">Is your recipe card in danger? Find out.</p>
                   </div>
                 </div>
               </div>
@@ -130,14 +130,14 @@ export default function LeadMagnet() {
                     onChange={(e) => setEmail(e.target.value)}
                     required
                     placeholder="your@email.com"
-                    className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-amber-600 focus:ring-2 focus:ring-amber-200 outline-none transition-colors text-gray-900"
+                    className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-emerald-600 focus:ring-2 focus:ring-emerald-200 outline-none transition-colors text-gray-900"
                   />
                 </div>
 
                 <button
                   type="submit"
                   disabled={status === 'loading'}
-                  className="w-full px-6 py-4 text-lg font-semibold text-white bg-amber-600 hover:bg-amber-700 disabled:bg-gray-400 rounded-lg shadow-lg hover:shadow-xl transition-all transform hover:scale-105 disabled:transform-none disabled:cursor-not-allowed"
+                  className="w-full px-6 py-4 text-lg font-semibold text-white bg-emerald-600 hover:bg-emerald-700 disabled:bg-gray-400 rounded-lg shadow-lg hover:shadow-xl transition-all transform hover:scale-105 disabled:transform-none disabled:cursor-not-allowed"
                 >
                   {status === 'loading' ? (
                     <span className="flex items-center justify-center gap-2">
@@ -202,7 +202,7 @@ export default function LeadMagnet() {
             <p className="text-gray-600 text-sm mb-4">
               Reconstruct recipes from memory using proven techniques.
             </p>
-            <a href="#lead-magnet" className="text-amber-600 hover:text-amber-700 font-semibold text-sm">
+            <a href="#lead-magnet" className="text-emerald-600 hover:text-emerald-700 font-semibold text-sm">
               Get This Too →
             </a>
           </div>
@@ -214,7 +214,7 @@ export default function LeadMagnet() {
             <p className="text-gray-600 text-sm mb-4">
               50 questions to capture stories before relatives pass.
             </p>
-            <a href="#lead-magnet" className="text-amber-600 hover:text-amber-700 font-semibold text-sm">
+            <a href="#lead-magnet" className="text-emerald-600 hover:text-emerald-700 font-semibold text-sm">
               Download Free →
             </a>
           </div>

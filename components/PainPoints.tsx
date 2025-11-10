@@ -92,7 +92,7 @@ export default function PainPoints() {
         </div>
 
         {/* Urgency messaging */}
-        <div className="max-w-3xl mx-auto bg-gradient-to-r from-red-50 to-orange-50 rounded-2xl p-8 border-2 border-red-200 text-center">
+        <div className="max-w-3xl mx-auto bg-gradient-to-r from-red-50 to-green-50 rounded-2xl p-8 border-2 border-red-200 text-center">
           <h3 className="text-3xl font-bold text-gray-900 mb-4">
             Don't Let "Someday" Turn Into Never
           </h3>
