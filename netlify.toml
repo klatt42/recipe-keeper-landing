@@ -1,0 +1,40 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+# Redirects for alternate domains
+[[redirects]]
+  from = "https://sharemyfamilyrecipes.com/*"
+  to = "https://myfamilyrecipekeeper.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.sharemyfamilyrecipes.com/*"
+  to = "https://myfamilyrecipekeeper.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://sharemyfamily.recipes/*"
+  to = "https://myfamilyrecipekeeper.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.sharemyfamily.recipes/*"
+  to = "https://myfamilyrecipekeeper.com/:splat"
+  status = 301
+  force = true
+
+# SPA fallback
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
