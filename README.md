@@ -122,9 +122,11 @@ This landing page uses **emotional storytelling** to convert visitors. Content i
 - User count
 
 ### 5. Pricing
-- **Free**: 50 recipes, 2 cookbooks, 5 AI variations/month
-- **Premium**: $4.99/month, unlimited everything
-- Clear comparison table
+- **Free**: 25 recipes, 2 cookbooks, 5 AI variations (lifetime), 5 nutrition facts (lifetime)
+- **Regular**: $4.99/month, 50 recipes/month, 10 AI variations/month, 25 nutrition facts/month
+- **Premium**: $9.95/month, 100 recipes/month, unlimited AI features
+- **Annual Plans**: Regular $49/year, Premium $99/year
+- Clear 3-tier comparison table
 
 ### 6. Lead Magnet
 - **"Recipe Card Rescue Kit"** - FREE PDF download

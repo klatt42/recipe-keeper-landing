@@ -14,9 +14,9 @@ export default function Pricing() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto mb-12">
+        <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto mb-12">
           {/* Free Tier */}
-          <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-gray-200">
+          <div className="bg-white rounded-2xl p-6 shadow-lg border-2 border-gray-200">
             <div className="text-center mb-6">
               <h3 className="text-2xl font-bold text-gray-900 mb-2">Free Forever</h3>
               <p className="text-gray-600 mb-4">Perfect for getting started</p>
@@ -27,75 +27,83 @@ export default function Pricing() {
               <p className="text-sm text-gray-500 mt-2">No credit card required</p>
             </div>
 
-            <ul className="space-y-4 mb-8">
-              <li className="flex items-start gap-3">
-                <svg className="w-6 h-6 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+            <ul className="space-y-3 mb-8">
+              <li className="flex items-start gap-2">
+                <svg className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
-                <span className="text-gray-700">
-                  <strong>25 recipes</strong> (great for testing)
+                <span className="text-gray-700 text-sm">
+                  <strong>25 recipes</strong>
                 </span>
               </li>
-              <li className="flex items-start gap-3">
-                <svg className="w-6 h-6 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+              <li className="flex items-start gap-2">
+                <svg className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
-                <span className="text-gray-700">
-                  <strong>Multi-image OCR</strong> (both sides of cards)
+                <span className="text-gray-700 text-sm">
+                  <strong>Multi-image OCR</strong>
                 </span>
               </li>
-              <li className="flex items-start gap-3">
-                <svg className="w-6 h-6 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+              <li className="flex items-start gap-2">
+                <svg className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
-                <span className="text-gray-700">
+                <span className="text-gray-700 text-sm">
                   <strong>2 cookbooks</strong>
                 </span>
               </li>
-              <li className="flex items-start gap-3">
-                <svg className="w-6 h-6 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+              <li className="flex items-start gap-2">
+                <svg className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
-                <span className="text-gray-700">
-                  <strong>View shared cookbooks</strong> (read-only access)
+                <span className="text-gray-700 text-sm">
+                  <strong>View shared cookbooks</strong>
                 </span>
               </li>
-              <li className="flex items-start gap-3">
-                <svg className="w-6 h-6 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+              <li className="flex items-start gap-2">
+                <svg className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
-                <span className="text-gray-700">
-                  <strong>5 AI variations</strong>/month
+                <span className="text-gray-700 text-sm">
+                  <strong>5 AI variations</strong> (lifetime)
                 </span>
               </li>
-              <li className="flex items-start gap-3">
-                <svg className="w-6 h-6 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+              <li className="flex items-start gap-2">
+                <svg className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
-                <span className="text-gray-700">
-                  All core features (timeline, quick cook, etc.)
+                <span className="text-gray-700 text-sm">
+                  <strong>5 nutrition facts</strong> (lifetime)
+                </span>
+              </li>
+              <li className="flex items-start gap-2">
+                <svg className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </svg>
+                <span className="text-gray-700 text-sm">
+                  All core features
                 </span>
               </li>
             </ul>
 
             <a
               href="https://app.myfamilyrecipekeeper.com/signup"
-              className="block w-full text-center px-6 py-4 text-lg font-semibold text-emerald-700 bg-white hover:bg-gray-50 rounded-lg border-2 border-emerald-600 transition-all"
+              className="block w-full text-center px-6 py-3 text-base font-semibold text-emerald-700 bg-white hover:bg-gray-50 rounded-lg border-2 border-emerald-600 transition-all"
             >
               Start Free Forever
             </a>
           </div>
 
-          {/* Premium Tier */}
-          <div className="bg-gradient-to-br from-emerald-50 to-green-50 rounded-2xl p-8 shadow-xl border-4 border-emerald-500 relative">
+          {/* Regular Tier */}
+          <div className="bg-gradient-to-br from-emerald-50 to-green-50 rounded-2xl p-6 shadow-xl border-4 border-emerald-500 relative">
             {/* Badge */}
             <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-emerald-600 text-white text-sm font-bold px-4 py-2 rounded-full shadow-lg">
               MOST POPULAR
             </div>
 
             <div className="text-center mb-6 mt-4">
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">Premium</h3>
-              <p className="text-gray-600 mb-4">For serious family historians</p>
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">Regular</h3>
+              <p className="text-gray-600 mb-4">Perfect for home cooks</p>
               <div className="flex items-baseline justify-center gap-2">
                 <span className="text-5xl font-bold text-gray-900">$4.99</span>
                 <span className="text-gray-600">/month</span>
@@ -103,73 +111,155 @@ export default function Pricing() {
               <p className="text-sm text-emerald-700 mt-2 font-semibold">Less than a coffee per month</p>
             </div>
 
-            <ul className="space-y-4 mb-8">
-              <li className="flex items-start gap-3">
-                <svg className="w-6 h-6 text-emerald-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+            <ul className="space-y-3 mb-8">
+              <li className="flex items-start gap-2">
+                <svg className="w-5 h-5 text-emerald-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
-                <span className="text-gray-900 font-semibold">
-                  <strong>Share cookbooks</strong> with unlimited family members
+                <span className="text-gray-900 text-sm font-semibold">
+                  <strong>50 recipes per month</strong>
                 </span>
               </li>
-              <li className="flex items-start gap-3">
-                <svg className="w-6 h-6 text-emerald-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+              <li className="flex items-start gap-2">
+                <svg className="w-5 h-5 text-emerald-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
-                <span className="text-gray-900 font-semibold">
-                  <strong>Unlimited recipes</strong>
+                <span className="text-gray-900 text-sm font-semibold">
+                  <strong>Unlimited OCR imports</strong>
                 </span>
               </li>
-              <li className="flex items-start gap-3">
-                <svg className="w-6 h-6 text-emerald-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+              <li className="flex items-start gap-2">
+                <svg className="w-5 h-5 text-emerald-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
-                <span className="text-gray-900 font-semibold">
-                  <strong>Unlimited AI variations</strong>
+                <span className="text-gray-900 text-sm font-semibold">
+                  <strong>10 AI variations/month</strong>
                 </span>
               </li>
-              <li className="flex items-start gap-3">
-                <svg className="w-6 h-6 text-emerald-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+              <li className="flex items-start gap-2">
+                <svg className="w-5 h-5 text-emerald-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
-                <span className="text-gray-900 font-semibold">
+                <span className="text-gray-900 text-sm font-semibold">
+                  <strong>25 nutrition facts/month</strong>
+                </span>
+              </li>
+              <li className="flex items-start gap-2">
+                <svg className="w-5 h-5 text-emerald-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </svg>
+                <span className="text-gray-900 text-sm">
                   <strong>Unlimited cookbooks</strong>
                 </span>
               </li>
-              <li className="flex items-start gap-3">
-                <svg className="w-6 h-6 text-emerald-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+              <li className="flex items-start gap-2">
+                <svg className="w-5 h-5 text-emerald-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
-                <span className="text-gray-900">
+                <span className="text-gray-900 text-sm">
+                  <strong>Family sharing</strong>
+                </span>
+              </li>
+              <li className="flex items-start gap-2">
+                <svg className="w-5 h-5 text-emerald-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </svg>
+                <span className="text-gray-900 text-sm">
+                  PDF cookbook export
+                </span>
+              </li>
+            </ul>
+
+            <a
+              href="https://app.myfamilyrecipekeeper.com/signup?plan=regular"
+              className="block w-full text-center px-6 py-3 text-base font-semibold text-white bg-emerald-600 hover:bg-emerald-700 rounded-lg shadow-lg hover:shadow-xl transition-all transform hover:scale-105"
+            >
+              Subscribe Now
+            </a>
+            <p className="text-center text-sm text-gray-600 mt-3">
+              Start with free, upgrade anytime
+            </p>
+          </div>
+
+          {/* Premium Tier */}
+          <div className="bg-white rounded-2xl p-6 shadow-lg border-2 border-purple-200">
+            <div className="text-center mb-6">
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">Premium</h3>
+              <p className="text-gray-600 mb-4">For recipe enthusiasts</p>
+              <div className="flex items-baseline justify-center gap-2">
+                <span className="text-5xl font-bold text-gray-900">$9.95</span>
+                <span className="text-gray-600">/month</span>
+              </div>
+              <p className="text-sm text-purple-700 mt-2 font-semibold">Unlimited AI features</p>
+            </div>
+
+            <ul className="space-y-3 mb-8">
+              <li className="flex items-start gap-2">
+                <svg className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </svg>
+                <span className="text-gray-900 text-sm font-semibold">
+                  <strong>100 recipes per month</strong>
+                </span>
+              </li>
+              <li className="flex items-start gap-2">
+                <svg className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </svg>
+                <span className="text-gray-900 text-sm font-semibold">
+                  <strong>Unlimited AI variations</strong>
+                </span>
+              </li>
+              <li className="flex items-start gap-2">
+                <svg className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </svg>
+                <span className="text-gray-900 text-sm font-semibold">
+                  <strong>Unlimited nutrition facts</strong>
+                </span>
+              </li>
+              <li className="flex items-start gap-2">
+                <svg className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </svg>
+                <span className="text-gray-900 text-sm font-semibold">
+                  <strong>Unlimited OCR imports</strong>
+                </span>
+              </li>
+              <li className="flex items-start gap-2">
+                <svg className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </svg>
+                <span className="text-gray-900 text-sm">
                   <strong>Priority support</strong>
                 </span>
               </li>
-              <li className="flex items-start gap-3">
-                <svg className="w-6 h-6 text-emerald-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+              <li className="flex items-start gap-2">
+                <svg className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
-                <span className="text-gray-900">
-                  Early access to new features
+                <span className="text-gray-900 text-sm">
+                  Early access to features
                 </span>
               </li>
-              <li className="flex items-start gap-3">
-                <svg className="w-6 h-6 text-emerald-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+              <li className="flex items-start gap-2">
+                <svg className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
-                <span className="text-gray-900">
-                  Advanced export options (PDF cookbooks)
+                <span className="text-gray-900 text-sm">
+                  Everything in Regular
                 </span>
               </li>
             </ul>
 
             <a
               href="https://app.myfamilyrecipekeeper.com/signup?plan=premium"
-              className="block w-full text-center px-6 py-4 text-lg font-semibold text-white bg-emerald-600 hover:bg-emerald-700 rounded-lg shadow-lg hover:shadow-xl transition-all transform hover:scale-105"
+              className="block w-full text-center px-6 py-3 text-base font-semibold text-white bg-purple-600 hover:bg-purple-700 rounded-lg shadow-lg hover:shadow-xl transition-all transform hover:scale-105"
             >
               Go Premium
             </a>
             <p className="text-center text-sm text-gray-600 mt-3">
-              Start with free, upgrade anytime
+              Unlimited AI-powered features
             </p>
           </div>
         </div>
@@ -190,7 +280,7 @@ export default function Pricing() {
                 🎁 Referral Program: Get 1 Month Free
               </h3>
               <p className="text-gray-700 mb-3">
-                As a <strong>Premium member</strong>, invite your family to join. When they upgrade to Premium, you get <strong>1 month free</strong> and they get <strong>50% off their first month</strong> ($2.49).
+                As a <strong>paid member</strong> (Regular or Premium), invite your family to join. When they upgrade, you get <strong>1 month free</strong> and they get <strong>50% off their first month</strong>.
               </p>
               <p className="text-sm text-gray-600 italic">
                 Coming soon: Share your family cookbooks and earn rewards when they upgrade!
@@ -231,23 +321,22 @@ export default function Pricing() {
             </h3>
 
             <p className="text-xl mb-6 text-emerald-50">
-              Pay annually and save. Just $49.99/year instead of $59.88
+              Pay annually and save on Regular or Premium plans
             </p>
 
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-4">
-              <div className="text-center">
-                <p className="text-sm text-emerald-100">Monthly Plan</p>
-                <p className="text-2xl font-bold line-through opacity-75">$59.88/year</p>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-4">
+              <div className="text-center bg-white bg-opacity-10 rounded-lg p-4">
+                <p className="text-sm text-emerald-100 font-semibold mb-2">Regular Annual</p>
+                <p className="text-2xl font-bold line-through opacity-75">$59.88</p>
+                <p className="text-3xl font-bold text-white">$49/year</p>
+                <p className="text-sm text-emerald-100">Just $4.08/month</p>
               </div>
 
-              <svg className="w-8 h-8 text-white hidden sm:block" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-              </svg>
-
-              <div className="text-center">
-                <p className="text-sm text-emerald-100">Annual Plan</p>
-                <p className="text-3xl font-bold">$49.99/year</p>
-                <p className="text-sm text-emerald-100">Only $4.16/month</p>
+              <div className="text-center bg-white bg-opacity-10 rounded-lg p-4">
+                <p className="text-sm text-emerald-100 font-semibold mb-2">Premium Annual</p>
+                <p className="text-2xl font-bold line-through opacity-75">$119.40</p>
+                <p className="text-3xl font-bold text-white">$99/year</p>
+                <p className="text-sm text-emerald-100">Just $8.25/month</p>
               </div>
             </div>
 
